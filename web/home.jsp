@@ -84,35 +84,32 @@
                 <input type="image" src="search.png">                
             </div> 
 
-            <div>
+            <div style="background-color: #5670AB; width: 100%; height: 19px" >
   		<ul class="nav">
-  			<li> <a href="#">Home</a> </li>
-                        <li> <a href="#">ValComm</a> </li>
-                        <li> <a href="#">Apogee</a> </li>
-                        <li> <a href="#">Qartz Journals</a> </li>
+                    <li> <a href="#">&nbsp;Home&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+                        <li> <a href="#">&nbsp;ValComm&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+                        <li> <a href="#">&nbsp;Apogee&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+                        <li> <a href="#">&nbsp;Qartz&nbsp;Journals&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
   			<li>
-  				<a href="#"> My Services</a>
+  				<a href="#">&nbsp;My Services&nbsp;&nbsp;&nbsp;</a>
   				<ul>
   					<li><a href="#">My&nbsp;Profile</a></li>
   					<li><a href="#">Leave&nbsp;Tracking</a></li>
                                         <li><a href="#">Payroll&nbsp;Tax&nbsp;Declaration</a></li>
   				</ul>
   			</li>
-                        <li><a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                Welcome, Venugopal Manchala  
-                                </a></li>                        
+                        <div class = "rightnav">
                         <li> <a href="#">LogOut</a></li>
+                        <li><a href="#">Welcome, Venugopal Manchala </a></li>                        
+                        
+                        </div>
   		</ul>
   	</div>
             <div id="header">        
                 <img src="solutions.png" alt="Solutions" style="width: 100%">  
             </div>
             <div id="nav">   
-                <table border="1" style="border-collapse: collapse ; border-color: #008dde; font-size: 13px">
+                <table border="1" style="border-collapse: collapse ; width:100%; border-color: #008dde; font-size: 13px">
                     <tr>
                         <th>&nbsp</th> 
                         <th style="color: brown" align="left">Quick&nbsp;Links</th>          
@@ -142,7 +139,7 @@
             </div>
 
             <div id="tool">   
-                <table border="1" style="border-collapse: collapse ; border-color: #008dde; font-size: 13px">
+                <table border="1" style="border-collapse: collapse ; width: 100%; border-color: #008dde; font-size: 13px">
                     <tr>
                         <th>&nbsp</th> 
                         <th style="color: brown" align="left">Clever&nbsp;Tools</b></th>          
