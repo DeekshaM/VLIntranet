@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 6, 2015, 5:39:50 PM
+    Author     : vmanchala
+*/
+div#menuDemo2 {
+	width: 800px;
+    height: 30px;
+    position: relative;
+    left: 0;
+    top: 0;
+	background-color: orange;
+	color: white;
+	border-bottom: 1px solid black;
+	/*Remove this next one in production - Used for demo purpose only*/
+	margin-bottom: 300px;	
+}
+
+div#menuDemo2 ul {
+	list-style: none;
+    margin: 0;
+    padding: 0;
+	background-color: orange;
+}
+
+div#menuDemo2 > ul > li {
+	float: left;
+}
+
+div#menuDemo2 ul li {
+	width: 267px;
+	background-color: orange;
+}
+
+div#menuDemo2 ul li#homeMenu {
+	width: 266px;
+	background-color: orange;
+}
+
+div#menuDemo2 ul li a {
+	width: 266px;
+	text-decoration: none;
+}
+
+div#menuDemo2 > ul > li > ul {
+	display: none;
+	background-color: orange;
+	width: 267px;
+}
+
+div#menuDemo2 > ul > li:hover > ul {
+	display: block;
+}                                
+                       
